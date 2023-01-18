@@ -22,5 +22,4 @@ let zSpacing = -1000,
             frame.setAttribute('style', `transform: ${transform}; opacity: ${opacity}`)
             arrow.setAttribute('style', `opacity: ${opacityArrow}`)
         })
-    
     }
