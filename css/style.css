@@ -1,3 +1,4 @@
+/* line 1, ../projects/Racoon/scss/style.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -7,46 +8,56 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline;
 }
 
+/* line 2, ../projects/Racoon/scss/style.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+/* line 3, ../projects/Racoon/scss/style.scss */
 html {
   height: 100%;
 }
 
+/* line 4, ../projects/Racoon/scss/style.scss */
 body {
   line-height: 1;
 }
 
+/* line 5, ../projects/Racoon/scss/style.scss */
 ol, ul {
   list-style: none;
 }
 
+/* line 6, ../projects/Racoon/scss/style.scss */
 blockquote, q {
   quotes: none;
 }
 
+/* line 7, ../projects/Racoon/scss/style.scss */
 blockquote:before, blockquote:after, q:before, q:after {
   content: '';
   content: none;
 }
 
+/* line 8, ../projects/Racoon/scss/style.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
+/* line 15, ../projects/Racoon/scss/style.scss */
 .container {
   max-width: 1440px;
   margin: 0 auto;
   z-index: 999;
 }
 
+/* line 28, ../projects/Racoon/scss/style.scss */
 .headerContainer {
   perspective: 1500px;
 }
 
+/* line 32, ../projects/Racoon/scss/style.scss */
 .header {
   display: flex;
   flex-direction: column;
@@ -56,12 +67,14 @@ table {
   position: relative;
 }
 
+/* line 40, ../projects/Racoon/scss/style.scss */
 .header .particles-js-canvas-el {
   position: absolute;
   top: 0;
   left: 0;
 }
 
+/* line 45, ../projects/Racoon/scss/style.scss */
 .header_title {
   font-family: 'Montserrat';
   font-style: normal;
@@ -74,19 +87,22 @@ table {
   text-align: center;
 }
 
+/* line 56, ../projects/Racoon/scss/style.scss */
 .header_e {
   display: inline-flex;
 }
 
+/* line 59, ../projects/Racoon/scss/style.scss */
 .header_y1 {
-  width: 25px;
-  height: 25px;
+  width: 40px;
+  height: 40px;
   border: 7px solid white;
   border-radius: 50%;
   margin-right: 3px;
   position: relative;
 }
 
+/* line 67, ../projects/Racoon/scss/style.scss */
 .header_y2 {
   width: 10px;
   height: 10px;
@@ -97,14 +113,16 @@ table {
   border-radius: 100%;
 }
 
+/* line 76, ../projects/Racoon/scss/style.scss */
 .header_y3 {
-  width: 25px;
-  height: 25px;
+  width: 40px;
+  height: 40px;
   border: 7px solid white;
   border-radius: 50%;
   position: relative;
 }
 
+/* line 84, ../projects/Racoon/scss/style.scss */
 .header_y4 {
   width: 10px;
   height: 10px;
@@ -115,43 +133,48 @@ table {
   border-radius: 100%;
 }
 
+/* line 97, ../projects/Racoon/scss/style.scss */
 .header_gallery {
   transform-style: preserve-3d;
 }
 
+/* line 103, ../projects/Racoon/scss/style.scss */
 .header_me {
   background-color: white;
-  height: 110px;
+  height: calc((1vh + 1vw) * 3.5);
   border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px 70px;
+  padding: 0px calc((1vh + 1vw) * 3.5);
   margin-bottom: 62px;
   transition: opacity .75s ease;
   will-change: transform;
   transform-style: preserve-3d;
 }
 
+/* line 119, ../projects/Racoon/scss/style.scss */
 .header_text {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: calc((1vh + 1vw) * .9);
+  line-height: calc((1vh + 1vw) * 1);
   color: #000000;
   text-align: center;
 }
 
+/* line 129, ../projects/Racoon/scss/style.scss */
 .header_text span {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 39px;
+  font-size: calc((1vh + 1vw) * 1.2);
+  line-height: calc((1vh + 1vw) * 1.5);
   color: #000000;
 }
 
+/* line 139, ../projects/Racoon/scss/style.scss */
 .header_arrow {
   margin: 40px auto 30px auto;
   width: 38px;
@@ -159,10 +182,11 @@ table {
   transition: opacity 1s ease;
 }
 
+/* line 145, ../projects/Racoon/scss/style.scss */
 .header_arrow span {
   display: block;
-  width: 30px;
-  height: 30px;
+  width: calc((1vh + 1vw) * 1.4);
+  height: calc((1vh + 1vw) * 1.4);
   border-bottom: 3px solid #ffffff;
   border-right: 3px solid #ffffff;
   transform: rotate(45deg);
@@ -170,10 +194,12 @@ table {
   animation: arrow 2s infinite;
 }
 
+/* line 155, ../projects/Racoon/scss/style.scss */
 .header_arrow span:nth-child(2) {
   animation-delay: -0.2s;
 }
 
+/* line 158, ../projects/Racoon/scss/style.scss */
 .header_arrow span:nth-child(3) {
   animation-delay: -0.4s;
 }
@@ -192,44 +218,38 @@ table {
   }
 }
 
+/* line 184, ../projects/Racoon/scss/style.scss */
 .services_info {
   position: relative;
-  padding: 191px 0px 155px 0px;
+  padding: 350px 10px 100px 0px;
+  margin-bottom: 300px;
 }
 
+/* line 189, ../projects/Racoon/scss/style.scss */
 .services_info span:nth-child(1) > img {
   position: absolute;
   left: 3.95%;
-  top: 16.21%;
+  top: 30.21%;
   transform: rotate(11.42deg);
 }
 
+/* line 195, ../projects/Racoon/scss/style.scss */
 .services_info span:nth-child(2) > img {
   position: absolute;
-  left: 85.01%;
-  top: 65.93%;
+  left: 80.01%;
+  top: 63.93%;
   transform: rotate(16.57deg);
 }
 
+/* line 201, ../projects/Racoon/scss/style.scss */
 .services_info span:nth-child(3) > img {
   position: absolute;
   left: 3.15%;
-  top: 81.32%;
+  top: 90.32%;
   transform: rotate(-20.05deg);
 }
 
-.services_list {
-  text-align: center;
-}
-
-.services_li:nth-child(2) {
-  opacity: 0.29;
-}
-
-.services_li:nth-child(3) {
-  opacity: 0.17;
-}
-
+/* line 210, ../projects/Racoon/scss/style.scss */
 .services_li {
   font-family: 'Montserrat';
   font-style: normal;
@@ -237,13 +257,17 @@ table {
   font-size: 40px;
   line-height: 73px;
   color: #000000;
+  margin-left: 10%;
+  transition: opacity 1s ease;
 }
 
+/* line 230, ../projects/Racoon/scss/style.scss */
 .aboutUs_content {
   text-align: left;
   position: relative;
 }
 
+/* line 235, ../projects/Racoon/scss/style.scss */
 .aboutUs_text {
   font-family: 'Montserrat';
   font-style: normal;
@@ -251,10 +275,11 @@ table {
   font-size: 20px;
   line-height: 44px;
   color: #000000;
-  margin: 155px 0px 45px 0px;
+  margin: 0px 0px 45px 0px;
   padding: 0px 18px;
 }
 
+/* line 245, ../projects/Racoon/scss/style.scss */
 .aboutUs_borderSpan {
   content: '';
   position: absolute;
@@ -266,6 +291,7 @@ table {
   background-color: #0E3963;
 }
 
+/* line 260, ../projects/Racoon/scss/style.scss */
 .slider_title {
   font-family: 'Montserrat';
   font-style: normal;
@@ -280,17 +306,20 @@ table {
   justify-content: center;
 }
 
+/* line 273, ../projects/Racoon/scss/style.scss */
 .slider_titleContainer {
   background: #0E3963;
   border-radius: 11px;
   width: 0px;
 }
 
+/* line 279, ../projects/Racoon/scss/style.scss */
 .slider_body {
   display: flex;
   margin: 49px 0px;
 }
 
+/* line 285, ../projects/Racoon/scss/style.scss */
 .slider_elem {
   width: 397px;
   background: #FFFFFF;
@@ -299,10 +328,12 @@ table {
   margin: 5px 30px 30px 30px;
 }
 
+/* line 296, ../projects/Racoon/scss/style.scss */
 .slider_content {
   margin-left: 33px;
 }
 
+/* line 299, ../projects/Racoon/scss/style.scss */
 .slider_head {
   font-family: 'Montserrat';
   font-style: normal;
@@ -317,6 +348,7 @@ table {
   margin-bottom: 19px;
 }
 
+/* line 315, ../projects/Racoon/scss/style.scss */
 .slider_service {
   display: inline-block;
   font-family: 'Montserrat';
@@ -331,6 +363,7 @@ table {
   margin-bottom: 35px;
 }
 
+/* line 331, ../projects/Racoon/scss/style.scss */
 .slider_spec {
   font-family: 'Montserrat';
   font-style: normal;
@@ -342,6 +375,7 @@ table {
   margin-bottom: 23px;
 }
 
+/* line 344, ../projects/Racoon/scss/style.scss */
 .slider_serviceName {
   font-family: 'Montserrat';
   font-style: normal;
@@ -352,6 +386,7 @@ table {
   margin-bottom: 67px;
 }
 
+/* line 356, ../projects/Racoon/scss/style.scss */
 .slider_discription {
   font-family: 'Montserrat';
   font-style: normal;
@@ -364,6 +399,7 @@ table {
   margin-bottom: 143px;
 }
 
+/* line 367, ../projects/Racoon/scss/style.scss */
 .slider_btnMore {
   position: relative;
   padding: 0px 0px 30px 0px;
@@ -371,6 +407,7 @@ table {
   margin: 0 auto;
 }
 
+/* line 373, ../projects/Racoon/scss/style.scss */
 .slider_btnMoreCircle {
   content: '';
   position: absolute;
@@ -380,6 +417,7 @@ table {
   background: #072B87;
 }
 
+/* line 383, ../projects/Racoon/scss/style.scss */
 .slider_btnMoreCircle::after {
   content: '';
   position: absolute;
@@ -387,9 +425,10 @@ table {
   height: 13px;
   border-radius: 50%;
   background: #072B87;
-  margin-left: 14px;
+  margin-left: 15px;
 }
 
+/* line 392, ../projects/Racoon/scss/style.scss */
 .slider_btnMoreCircle::before {
   content: '';
   position: absolute;
@@ -399,3 +438,5 @@ table {
   background: #072B87;
   margin-left: 30px;
 }
+
+/*# sourceMappingURL=style.css.map */

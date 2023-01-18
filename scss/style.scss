@@ -8,8 +8,6 @@ blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
 table{border-collapse:collapse;border-spacing:0}
 
 
-
-
 //-----------------------------------------
 .wrapper {
  
@@ -59,8 +57,8 @@ table{border-collapse:collapse;border-spacing:0}
       display: inline-flex;
     }
     &_y1{
-      width: 25px;
-      height: 25px;
+      width: 40px;
+      height: 40px;
       border: 7px solid white;
       border-radius: 50%;
       margin-right: 3px;
@@ -76,8 +74,8 @@ table{border-collapse:collapse;border-spacing:0}
       border-radius: 100%;
     }
     &_y3{
-      width: 25px;
-      height: 25px;
+      width: 40px;
+      height: 40px;
       border: 7px solid white;
       border-radius: 50%;
       position: relative;
@@ -104,12 +102,12 @@ table{border-collapse:collapse;border-spacing:0}
 
 		&_me {
       background-color: white;
-      height: 110px; 
+      height: calc((1vh + 1vw) * 3.5); 
       border-radius: 50px;
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 0px 70px;
+      padding: 0px calc((1vh + 1vw) * 3.5);
       margin-bottom:62px;
       transition: opacity .75s ease;
       will-change: transform;
@@ -122,8 +120,8 @@ table{border-collapse:collapse;border-spacing:0}
       font-family: 'Montserrat';
       font-style: normal;
       font-weight: 700;
-      font-size: 24px;
-      line-height: 29px;
+      font-size: calc((1vh + 1vw) * .9);
+      line-height: calc((1vh + 1vw) * 1);
       color: #000000;
       //padding-bottom: 5px;
       text-align: center;
@@ -132,8 +130,8 @@ table{border-collapse:collapse;border-spacing:0}
       font-family: 'Montserrat';
       font-style: normal;
       font-weight: 700;
-      font-size: 32px;
-      line-height: 39px;
+      font-size: calc((1vh + 1vw) * 1.2);
+      line-height: calc((1vh + 1vw) * 1.5);
       color: #000000;
     }
 		// .header_arrow
@@ -146,8 +144,8 @@ table{border-collapse:collapse;border-spacing:0}
 		}
     &_arrow span {
       display: block;
-      width: 30px;
-      height: 30px;
+      width: calc((1vh + 1vw) * 1.4);
+      height: calc((1vh + 1vw) * 1.4);
       border-bottom: 3px solid #ffffff;
       border-right: 3px solid #ffffff;
       transform: rotate(45deg);
@@ -185,38 +183,28 @@ table{border-collapse:collapse;border-spacing:0}
 
   &_info {
     position: relative;
-      padding: 191px 0px 155px 0px;
+    padding: 350px 10px 100px 0px;
+    margin-bottom: 300px;
   }
   &_info span:nth-child(1)>img {
     position: absolute;
     left: 3.95%;
-    top: 16.21%;
+    top: 30.21%;
     transform: rotate(11.42deg);
   }
   &_info span:nth-child(2)>img {
     position: absolute;
-    left: 85.01%;
-    top: 65.93%;
+    left: 80.01%;
+    top: 63.93%;
     transform: rotate(16.57deg);
   }
   &_info span:nth-child(3)>img {
     position: absolute;
     left: 3.15%;
-    top: 81.32%;
+    top: 90.32%;
     transform: rotate(-20.05deg);
   }
-  // .services_list
 
-  &_list {
- text-align: center;
-  }
-  &_li:nth-child(2){
-   opacity: 0.29;
-  }
-
-  &_li:nth-child(3){
-   opacity: 0.17;
-  }
   // .services_li
 
   &_li {
@@ -226,6 +214,8 @@ table{border-collapse:collapse;border-spacing:0}
     font-size: 40px;
     line-height: 73px;
     color: #000000;
+    margin-left: 10%;
+    transition: opacity 1s ease;
   }
   
 }
@@ -249,7 +239,7 @@ table{border-collapse:collapse;border-spacing:0}
     font-size: 20px;
     line-height: 44px;
     color: #000000;
-    margin: 155px 0px 45px 0px;
+    margin: 0px 0px 45px 0px;
     padding: 0px 18px;
     }
   &_borderSpan{
@@ -397,8 +387,7 @@ table{border-collapse:collapse;border-spacing:0}
       height: 13px;
       border-radius: 50%;
       background: #072B87;
-      margin-left:14px;
-  
+      margin-left:15px;
     }
     &_btnMoreCircle::before{
       content: '';
