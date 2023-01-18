@@ -28,7 +28,7 @@ blockquote, q {
 }
 
 blockquote:before, blockquote:after, q:before, q:after {
-  content: "";
+  content: '';
   content: none;
 }
 
@@ -43,6 +43,10 @@ table {
   z-index: 999;
 }
 
+.headerContainer {
+  perspective: 1500px;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -51,13 +55,15 @@ table {
   background-color: #0E3963;
   position: relative;
 }
+
 .header .particles-js-canvas-el {
   position: absolute;
   top: 0;
   left: 0;
 }
+
 .header_title {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 54px;
@@ -65,10 +71,13 @@ table {
   color: #FFFFFF;
   padding-top: 190px;
   margin-bottom: 50px;
+  text-align: center;
 }
+
 .header_e {
   display: inline-flex;
 }
+
 .header_y1 {
   width: 25px;
   height: 25px;
@@ -77,6 +86,7 @@ table {
   margin-right: 3px;
   position: relative;
 }
+
 .header_y2 {
   width: 10px;
   height: 10px;
@@ -86,6 +96,7 @@ table {
   bottom: 7.5px;
   border-radius: 100%;
 }
+
 .header_y3 {
   width: 25px;
   height: 25px;
@@ -93,6 +104,7 @@ table {
   border-radius: 50%;
   position: relative;
 }
+
 .header_y4 {
   width: 10px;
   height: 10px;
@@ -102,39 +114,51 @@ table {
   bottom: 7.5px;
   border-radius: 100%;
 }
+
+.header_gallery {
+  transform-style: preserve-3d;
+}
+
 .header_me {
   background-color: white;
-  height: 130px;
-  -webkit-clip-path: polygon(0 0, 97% 0, 100% 73%, 3% 83%);
-          clip-path: polygon(0 0, 97% 0, 100% 73%, 3% 83%);
+  height: 110px;
+  border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px 30px;
+  padding: 0px 70px;
   margin-bottom: 62px;
+  transition: opacity .75s ease;
+  will-change: transform;
+  transform-style: preserve-3d;
 }
+
 .header_text {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
   color: #000000;
-  padding-bottom: 20px;
+  text-align: center;
 }
+
 .header_text span {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 39px;
   color: #000000;
 }
+
 .header_arrow {
   margin: 40px auto 30px auto;
   width: 38px;
   height: 100px;
+  transition: opacity 1s ease;
 }
+
 .header_arrow span {
   display: block;
   width: 30px;
@@ -143,30 +167,17 @@ table {
   border-right: 3px solid #ffffff;
   transform: rotate(45deg);
   margin: -16px 0;
-  -webkit-animation: arrow 2s infinite;
-          animation: arrow 2s infinite;
+  animation: arrow 2s infinite;
 }
+
 .header_arrow span:nth-child(2) {
-  -webkit-animation-delay: -0.2s;
-          animation-delay: -0.2s;
+  animation-delay: -0.2s;
 }
+
 .header_arrow span:nth-child(3) {
-  -webkit-animation-delay: -0.4s;
-          animation-delay: -0.4s;
+  animation-delay: -0.4s;
 }
-@-webkit-keyframes arrow {
-  0% {
-    opacity: 0;
-    transform: translate(0, -20px) rotate(45deg);
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: translate(0, 20px) rotate(45deg);
-  }
-}
+
 @keyframes arrow {
   0% {
     opacity: 0;
@@ -185,35 +196,42 @@ table {
   position: relative;
   padding: 191px 0px 155px 0px;
 }
+
 .services_info span:nth-child(1) > img {
   position: absolute;
   left: 3.95%;
   top: 16.21%;
   transform: rotate(11.42deg);
 }
+
 .services_info span:nth-child(2) > img {
   position: absolute;
   left: 85.01%;
   top: 65.93%;
   transform: rotate(16.57deg);
 }
+
 .services_info span:nth-child(3) > img {
   position: absolute;
   left: 3.15%;
   top: 81.32%;
   transform: rotate(-20.05deg);
 }
+
 .services_list {
   text-align: center;
 }
+
 .services_li:nth-child(2) {
   opacity: 0.29;
 }
+
 .services_li:nth-child(3) {
   opacity: 0.17;
 }
+
 .services_li {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
@@ -225,8 +243,9 @@ table {
   text-align: left;
   position: relative;
 }
+
 .aboutUs_text {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -235,8 +254,9 @@ table {
   margin: 155px 0px 45px 0px;
   padding: 0px 18px;
 }
+
 .aboutUs_borderSpan {
-  content: "";
+  content: '';
   position: absolute;
   width: 6px;
   top: 0;
@@ -247,7 +267,7 @@ table {
 }
 
 .slider_title {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -259,27 +279,32 @@ table {
   align-items: center;
   justify-content: center;
 }
+
 .slider_titleContainer {
   background: #0E3963;
   border-radius: 11px;
   width: 0px;
 }
+
 .slider_body {
   display: flex;
   margin: 49px 0px;
 }
+
 .slider_elem {
   width: 397px;
   background: #FFFFFF;
-  box-shadow: 0px 9px 40px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 9px 30px rgba(0, 0, 0, 0.17);
   border-radius: 30px;
-  margin: 0px 30px;
+  margin: 5px 30px 30px 30px;
 }
+
 .slider_content {
   margin-left: 33px;
 }
+
 .slider_head {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -291,9 +316,10 @@ table {
   border-radius: 30px 30px 0px 0px;
   margin-bottom: 19px;
 }
+
 .slider_service {
   display: inline-block;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -304,18 +330,20 @@ table {
   border-radius: 4px;
   margin-bottom: 35px;
 }
+
 .slider_spec {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  border-left: 6px solid #072B87;
+  border-left: 6px solid  #072B87;
   padding-left: 10px;
   margin-bottom: 23px;
 }
+
 .slider_serviceName {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 27px;
@@ -323,8 +351,9 @@ table {
   color: #0F2C47;
   margin-bottom: 67px;
 }
+
 .slider_discription {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -334,22 +363,25 @@ table {
   color: #414141;
   margin-bottom: 143px;
 }
+
 .slider_btnMore {
   position: relative;
   padding: 0px 0px 30px 0px;
   width: 100px;
   margin: 0 auto;
 }
+
 .slider_btnMoreCircle {
-  content: "";
+  content: '';
   position: absolute;
   width: 13px;
   height: 13px;
   border-radius: 50%;
   background: #072B87;
 }
+
 .slider_btnMoreCircle::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 13px;
   height: 13px;
@@ -357,8 +389,9 @@ table {
   background: #072B87;
   margin-left: 14px;
 }
+
 .slider_btnMoreCircle::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 13px;
   height: 13px;
