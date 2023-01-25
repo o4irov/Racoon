@@ -426,6 +426,7 @@ table {
   &_body {
     display: flex;
     margin: 49px 0px;
+    padding: 30px 0;
   }
 
   // .slider_elem
@@ -437,11 +438,15 @@ table {
     margin: 5px 30px 30px 30px;
   }
 
-  // .slider_head
+  #card{
+    
+  }
+
+  //.slider_content
   &_content {
     padding: 0 20px;
   }
-
+  // .slider_head
   &_head {
     font-family: 'Montserrat';
     font-style: normal;
@@ -549,7 +554,6 @@ table {
     margin-left: 30px;
 
   }
-
 }
 
 .work {
