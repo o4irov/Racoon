@@ -5,7 +5,7 @@ let zSpacing = -1000,
     frames = Array.from($frames),
     zVals = [],
     arrow = document.getElementById("arrows")
-    $services = document.getElementsByClassName("services_li"),
+$services = document.getElementsByClassName("services_li"),
     services = Array.from($services)
 
 
@@ -28,28 +28,19 @@ window.onscroll = function () {
 
     //Scroll of services
 
-    if(document.documentElement.scrollTop > 0 && document.documentElement.scrollTop < 700){
-                services[0].removeAttribute('style', 'opacity')
-                services[0].setAttribute('style', 'opacity: 1')
-                services[1].removeAttribute('style', 'opacity')
-                services[1].setAttribute('style', 'opacity: .29')
-                services[2].removeAttribute('style', 'opacity')
-                services[2].setAttribute('style', 'opacity: .17')
-            }
-            else if(document.documentElement.scrollTop > 700 && document.documentElement.scrollTop < 1200){
-                services[0].removeAttribute('style', 'opacity')
-                services[0].setAttribute('style', 'opacity: .29')
-                services[1].removeAttribute('style', 'opacity')
-                services[1].setAttribute('style', 'opacity: 1')
-                services[2].removeAttribute('style', 'opacity')
-                services[2].setAttribute('style', 'opacity: .29')
-            }
-            else if(document.documentElement.scrollTop > 1200){
-                services[0].removeAttribute('style', 'opacity')
-                services[0].setAttribute('style', 'opacity: .17')
-                services[1].removeAttribute('style', 'opacity')
-                services[1].setAttribute('style', 'opacity: .29')
-                services[2].removeAttribute('style', 'opacity')
-                services[2].setAttribute('style', 'opacity: 1')
-            }
+    if (document.documentElement.scrollTop > 1200) {
+        services[0].style.opacity = .17
+        services[1].style.opacity = .29
+        services[2].style.opacity = 1
+        return
+    }
+    if (document.documentElement.scrollTop > 700) {
+        services[0].style.opacity = .29
+        services[1].style.opacity = 1
+        services[2].style.opacity = .29
+        return
+    }
+    services[0].style.opacity = 1
+    services[1].style.opacity = .29
+    services[2].style.opacity = .17
 }
