@@ -21,6 +21,4 @@ $(document).ready(function () {
             }
         ]
     });
-    $('.slider_btnMoreCircle').click(function () {
-    })
 });
