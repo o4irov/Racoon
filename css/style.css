@@ -431,14 +431,15 @@ table {
 /* line 441, ../projects/Racoon/scss/style.scss */
 .slider .wrap {
   margin: 5px 30px 30px 30px;
+  cursor: pointer;
 }
 
-/* line 446, ../projects/Racoon/scss/style.scss */
+/* line 447, ../projects/Racoon/scss/style.scss */
 .slider_content {
   padding: 0 20px;
 }
 
-/* line 451, ../projects/Racoon/scss/style.scss */
+/* line 452, ../projects/Racoon/scss/style.scss */
 .slider_head {
   font-family: 'Montserrat';
   font-style: normal;
@@ -453,7 +454,7 @@ table {
   margin-bottom: 19px;
 }
 
-/* line 467, ../projects/Racoon/scss/style.scss */
+/* line 468, ../projects/Racoon/scss/style.scss */
 .slider_service {
   display: inline-block;
   font-family: 'Montserrat';
@@ -468,7 +469,7 @@ table {
   margin-bottom: 35px;
 }
 
-/* line 483, ../projects/Racoon/scss/style.scss */
+/* line 484, ../projects/Racoon/scss/style.scss */
 .slider_spec {
   font-family: 'Montserrat';
   font-style: normal;
@@ -480,7 +481,7 @@ table {
   margin-bottom: 23px;
 }
 
-/* line 496, ../projects/Racoon/scss/style.scss */
+/* line 497, ../projects/Racoon/scss/style.scss */
 .slider_serviceName {
   font-family: 'Montserrat';
   font-style: normal;
@@ -491,7 +492,7 @@ table {
   margin-bottom: 67px;
 }
 
-/* line 508, ../projects/Racoon/scss/style.scss */
+/* line 509, ../projects/Racoon/scss/style.scss */
 .slider_discription {
   font-family: 'Montserrat';
   font-style: normal;
@@ -504,7 +505,7 @@ table {
   margin-bottom: 143px;
 }
 
-/* line 520, ../projects/Racoon/scss/style.scss */
+/* line 521, ../projects/Racoon/scss/style.scss */
 .slider_btnMore {
   position: relative;
   padding: 0px 0px 30px 45px;
@@ -512,7 +513,7 @@ table {
   margin: 0 auto;
 }
 
-/* line 527, ../projects/Racoon/scss/style.scss */
+/* line 528, ../projects/Racoon/scss/style.scss */
 .slider_btnMoreCircle {
   content: '';
   position: absolute;
@@ -522,7 +523,7 @@ table {
   background: #072B87;
 }
 
-/* line 538, ../projects/Racoon/scss/style.scss */
+/* line 539, ../projects/Racoon/scss/style.scss */
 .slider_btnMoreCircle::after {
   content: '';
   position: absolute;
@@ -533,7 +534,7 @@ table {
   margin-left: 15px;
 }
 
-/* line 548, ../projects/Racoon/scss/style.scss */
+/* line 549, ../projects/Racoon/scss/style.scss */
 .slider_btnMoreCircle::before {
   content: '';
   position: absolute;
@@ -544,13 +545,13 @@ table {
   margin-left: 30px;
 }
 
-/* line 560, ../projects/Racoon/scss/style.scss */
+/* line 561, ../projects/Racoon/scss/style.scss */
 .work {
   font-family: 'Montserrat';
   font-style: normal;
 }
 
-/* line 565, ../projects/Racoon/scss/style.scss */
+/* line 566, ../projects/Racoon/scss/style.scss */
 .work_circles {
   display: flex;
   font-weight: 200;
@@ -559,7 +560,7 @@ table {
   color: #fff;
 }
 
-/* line 574, ../projects/Racoon/scss/style.scss */
+/* line 575, ../projects/Racoon/scss/style.scss */
 .work_title {
   font-weight: 600;
   font-size: calc((1vh + 1vw) * 2);
@@ -591,110 +592,110 @@ table {
   cursor: pointer;
 }
 
-/* line 604, ../projects/Racoon/scss/style.scss */
+/* line 605, ../projects/Racoon/scss/style.scss */
 .work_circle span {
   transition: opacity .75s ease;
 }
 
-/* line 608, ../projects/Racoon/scss/style.scss */
+/* line 610, ../projects/Racoon/scss/style.scss */
 .work_circle .spanImg {
   display: flex;
   justify-content: end;
   padding-top: calc((1vh + 1vw) * 1);
 }
 
-/* line 613, ../projects/Racoon/scss/style.scss */
+/* line 616, ../projects/Racoon/scss/style.scss */
 .work_circle img {
   width: calc((1vh + 1vw) * 3);
   height: calc((1vh + 1vw) * 3);
 }
 
-/* line 620, ../projects/Racoon/scss/style.scss */
+/* line 623, ../projects/Racoon/scss/style.scss */
 .work_circle:first-child .spanImg {
   display: flex;
   justify-content: end;
   padding-right: calc((1vh + 1vw) * 2);
 }
 
-/* line 625, ../projects/Racoon/scss/style.scss */
+/* line 629, ../projects/Racoon/scss/style.scss */
 .work_circle:first-child img {
   width: calc((1vh + 1vw) * 3);
   height: calc((1vh + 1vw) * 3);
 }
 
-/* line 631, ../projects/Racoon/scss/style.scss */
+/* line 635, ../projects/Racoon/scss/style.scss */
 .work_circle:nth-child(2) {
   text-align: center;
   margin-left: -15%;
   z-index: 0;
 }
 
-/* line 635, ../projects/Racoon/scss/style.scss */
+/* line 640, ../projects/Racoon/scss/style.scss */
 .work_circle:nth-child(2) .spanImg {
   justify-content: center;
 }
 
-/* line 638, ../projects/Racoon/scss/style.scss */
+/* line 644, ../projects/Racoon/scss/style.scss */
 .work_circle:nth-child(2) img {
   width: calc((1vh + 1vw) * 6);
   height: calc((1vh + 1vw) * 4.4);
 }
 
-/* line 644, ../projects/Racoon/scss/style.scss */
+/* line 650, ../projects/Racoon/scss/style.scss */
 .work_circle:last-child {
   text-align: end;
   margin-left: -15%;
   z-index: -1;
 }
 
-/* line 648, ../projects/Racoon/scss/style.scss */
+/* line 655, ../projects/Racoon/scss/style.scss */
 .work_circle:last-child .spanImg {
   justify-content: start;
   padding-top: calc((1vh + 1vw) * .3);
   padding-left: calc((1vh + 1vw) * 1);
 }
 
-/* line 653, ../projects/Racoon/scss/style.scss */
+/* line 661, ../projects/Racoon/scss/style.scss */
 .work_circle:last-child img {
   width: calc((1vh + 1vw) * 7);
   height: calc((1vh + 1vw) * 5);
 }
 
-/* line 660, ../projects/Racoon/scss/style.scss */
+/* line 668, ../projects/Racoon/scss/style.scss */
 .work_circles .active {
   background-color: #072B87;
   z-index: 2;
 }
 
-/* line 664, ../projects/Racoon/scss/style.scss */
+/* line 672, ../projects/Racoon/scss/style.scss */
 .work_circles .active span {
   opacity: 1;
 }
 
-/* line 669, ../projects/Racoon/scss/style.scss */
+/* line 677, ../projects/Racoon/scss/style.scss */
 .work_circles .neighbor {
   background-color: #879BCD;
   z-index: 1;
 }
 
-/* line 673, ../projects/Racoon/scss/style.scss */
+/* line 681, ../projects/Racoon/scss/style.scss */
 .work_circles .neighbor span {
   opacity: 0;
 }
 
-/* line 678, ../projects/Racoon/scss/style.scss */
+/* line 686, ../projects/Racoon/scss/style.scss */
 .work_circles .far {
   background-color: #B4C3E8;
   z-index: 0;
 }
 
-/* line 682, ../projects/Racoon/scss/style.scss */
+/* line 690, ../projects/Racoon/scss/style.scss */
 .work_circles .far span {
   opacity: 0;
 }
 
 @media (max-width: 600px) {
-  /* line 688, ../projects/Racoon/scss/style.scss */
+  /* line 697, ../projects/Racoon/scss/style.scss */
   .work_circles {
     box-sizing: border-box;
     flex-direction: column;
@@ -702,67 +703,68 @@ table {
     margin-bottom: calc(1vh * 10);
     align-items: center;
   }
-  /* line 695, ../projects/Racoon/scss/style.scss */
+  /* line 705, ../projects/Racoon/scss/style.scss */
   .work_circle {
     width: 15em;
     height: 15em;
     padding: calc((1vh + 1vw) * 5);
     padding-top: calc((1vh + 1vw) * 6);
   }
-  /* line 700, ../projects/Racoon/scss/style.scss */
+  /* line 711, ../projects/Racoon/scss/style.scss */
   .work_circle .spanImg {
     display: flex;
     justify-content: end;
     padding-top: calc((1vh + 1vw) * 2);
   }
-  /* line 708, ../projects/Racoon/scss/style.scss */
+  /* line 719, ../projects/Racoon/scss/style.scss */
   .work_circle:first-child .spanImg {
     padding-right: calc((1vh + 1vw) * 2);
   }
-  /* line 711, ../projects/Racoon/scss/style.scss */
+  /* line 723, ../projects/Racoon/scss/style.scss */
   .work_circle:first-child img {
     width: calc((1vh + 1vw) * 5);
     height: calc((1vh + 1vw) * 5);
   }
-  /* line 717, ../projects/Racoon/scss/style.scss */
+  /* line 729, ../projects/Racoon/scss/style.scss */
   .work_circle:nth-child(2) {
     margin-left: 0;
     margin-top: -20%;
   }
-  /* line 720, ../projects/Racoon/scss/style.scss */
+  /* line 733, ../projects/Racoon/scss/style.scss */
   .work_circle:nth-child(2) .spanImg {
     justify-content: center;
   }
-  /* line 723, ../projects/Racoon/scss/style.scss */
+  /* line 737, ../projects/Racoon/scss/style.scss */
   .work_circle:nth-child(2) img {
     width: calc((1vh + 1vw) * 10.5);
     height: calc((1vh + 1vw) * 8);
   }
-  /* line 729, ../projects/Racoon/scss/style.scss */
+  /* line 743, ../projects/Racoon/scss/style.scss */
   .work_circle:last-child {
     margin-left: 0;
     margin-top: -20%;
   }
-  /* line 732, ../projects/Racoon/scss/style.scss */
+  /* line 747, ../projects/Racoon/scss/style.scss */
   .work_circle:last-child .spanImg {
     justify-content: start;
     padding-top: calc((1vh + 1vw) * .3);
     padding-left: 0;
   }
-  /* line 737, ../projects/Racoon/scss/style.scss */
+  /* line 753, ../projects/Racoon/scss/style.scss */
   .work_circle:last-child img {
     width: calc((1vh + 1vw) * 10.5);
     height: calc((1vh + 1vw) * 8);
   }
 }
 
-/* line 747, ../projects/Racoon/scss/style.scss */
+/* line 763, ../projects/Racoon/scss/style.scss */
 .projects {
   font-family: 'Montserrat';
   font-style: normal;
+  margin-bottom: calc((1vh + 1vw) * 7.2);
 }
 
-/* line 751, ../projects/Racoon/scss/style.scss */
+/* line 770, ../projects/Racoon/scss/style.scss */
 .projects_title {
   font-weight: 600;
   font-size: calc((1vh + 1vw) * 2);
@@ -770,7 +772,7 @@ table {
   margin-bottom: calc((1vh + 1vw) * 3);
 }
 
-/* line 758, ../projects/Racoon/scss/style.scss */
+/* line 776, ../projects/Racoon/scss/style.scss */
 .projects_title hr {
   width: calc((1vh + 1vw) * 10);
   border-width: 3px;
@@ -781,14 +783,14 @@ table {
   transition: transform 3s ease;
 }
 
-/* line 771, ../projects/Racoon/scss/style.scss */
+/* line 789, ../projects/Racoon/scss/style.scss */
 .projects_row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 40px;
 }
 
-/* line 778, ../projects/Racoon/scss/style.scss */
+/* line 796, ../projects/Racoon/scss/style.scss */
 .projects_card {
   display: flex;
   justify-content: center;
@@ -801,7 +803,7 @@ table {
   transition: background-color .5s;
 }
 
-/* line 788, ../projects/Racoon/scss/style.scss */
+/* line 807, ../projects/Racoon/scss/style.scss */
 .projects_card .text {
   color: #fff;
   text-align: center;
@@ -809,70 +811,217 @@ table {
   font-size: calc((1vh + 1vw) * 1.48);
 }
 
-/* line 796, ../projects/Racoon/scss/style.scss */
+/* line 815, ../projects/Racoon/scss/style.scss */
 .projects_card:hover {
   background-color: #072B87;
 }
 
 @media (max-width: 2100px) {
-  /* line 801, ../projects/Racoon/scss/style.scss */
+  /* line 820, ../projects/Racoon/scss/style.scss */
   .projects_row {
     padding: 0;
   }
-  /* line 804, ../projects/Racoon/scss/style.scss */
+  /* line 824, ../projects/Racoon/scss/style.scss */
   .projects_card:nth-child(3) {
     margin-right: 0;
   }
 }
 
 @media (max-width: 1720px) {
-  /* line 809, ../projects/Racoon/scss/style.scss */
+  /* line 830, ../projects/Racoon/scss/style.scss */
   .projects_row {
     padding: 0 40px;
   }
 }
 
 @media (max-width: 968px) {
-  /* line 815, ../projects/Racoon/scss/style.scss */
+  /* line 836, ../projects/Racoon/scss/style.scss */
   .projects_card:nth-child(3) {
     margin-right: 5em;
   }
 }
 
 @media (max-width: 710px) {
-  /* line 821, ../projects/Racoon/scss/style.scss */
+  /* line 842, ../projects/Racoon/scss/style.scss */
   .projects_card:nth-child(2) {
     margin-right: 0;
   }
-  /* line 824, ../projects/Racoon/scss/style.scss */
+  /* line 846, ../projects/Racoon/scss/style.scss */
   .projects_card:nth-child(4) {
     margin-right: 0;
   }
 }
 
 @media (max-width: 600px) {
-  /* line 830, ../projects/Racoon/scss/style.scss */
+  /* line 852, ../projects/Racoon/scss/style.scss */
   .projects_row {
     flex-direction: column;
     align-items: center;
   }
-  /* line 834, ../projects/Racoon/scss/style.scss */
+  /* line 857, ../projects/Racoon/scss/style.scss */
   .projects_card {
     width: calc((1vh + 1vw) * 23);
     height: calc((1vh + 1vw) * 23);
     margin-bottom: 2em;
   }
-  /* line 839, ../projects/Racoon/scss/style.scss */
+  /* line 863, ../projects/Racoon/scss/style.scss */
   .projects_card:nth-child(1) {
     margin-right: 0;
   }
-  /* line 842, ../projects/Racoon/scss/style.scss */
+  /* line 867, ../projects/Racoon/scss/style.scss */
   .projects_card:nth-child(3) {
     margin-right: 0;
   }
-  /* line 845, ../projects/Racoon/scss/style.scss */
+  /* line 871, ../projects/Racoon/scss/style.scss */
   .projects_card:nth-child(5) {
     margin-right: 0;
+  }
+}
+
+/* line 879, ../projects/Racoon/scss/style.scss */
+.partners {
+  display: flex;
+  background-color: #072B87;
+  font-family: 'Montserrat';
+  font-style: normal;
+  color: #fff;
+}
+
+/* line 887, ../projects/Racoon/scss/style.scss */
+.partners_text {
+  max-width: 720px;
+  padding-top: calc((1vh + 1vw) * 2);
+}
+
+/* line 891, ../projects/Racoon/scss/style.scss */
+.partners_text_title {
+  font-size: calc((1vh + 1vw) * 1.6);
+  font-weight: 600;
+  line-height: calc((1vh + 1vw) * 1.8);
+  margin-bottom: calc((1vh + 1vw) * 1.6);
+}
+
+/* line 898, ../projects/Racoon/scss/style.scss */
+.partners_text_paragraph {
+  font-size: calc((1vh + 1vw) * 0.8);
+  line-height: 127.52%;
+  margin-bottom: calc((1vh + 1vw) * 2.3);
+}
+
+/* line 904, ../projects/Racoon/scss/style.scss */
+.partners_text_button {
+  font-size: calc((1vh + 1vw) * 0.6);
+  padding: 1em 2em;
+  background-color: #fff;
+  color: #000000;
+  border: 0;
+  border-radius: 10px;
+}
+
+/* line 912, ../projects/Racoon/scss/style.scss */
+.partners_text_button:link, .partners_text_button:visited {
+  text-decoration: none;
+  display: inline-block;
+  transition: all .2s;
+}
+
+/* line 919, ../projects/Racoon/scss/style.scss */
+.partners_text_button:hover {
+  transform: translateY(-5px);
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* line 923, ../projects/Racoon/scss/style.scss */
+.partners_text_button:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+/* line 929, ../projects/Racoon/scss/style.scss */
+.partners_text_button:active {
+  transform: translateY(-5px);
+  box-shadow: inset 1px 1px 10px -1px;
+}
+
+@media (max-width: 1340px) {
+  /* line 937, ../projects/Racoon/scss/style.scss */
+  .partners_image {
+    display: none;
+  }
+  /* line 941, ../projects/Racoon/scss/style.scss */
+  .partners_text {
+    padding: calc((1vh + 1vw) * 2);
+  }
+  /* line 944, ../projects/Racoon/scss/style.scss */
+  .partners_text_button {
+    font-size: 10px;
+    padding: 1em 2em;
+  }
+}
+
+/* line 952, ../projects/Racoon/scss/style.scss */
+.connect {
+  font-family: 'Montserrat';
+  font-style: normal;
+  background-color: #E7F2FA;
+}
+
+/* line 957, ../projects/Racoon/scss/style.scss */
+.connect_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: calc((1vh + 1vw) * 4.1);
+}
+
+/* line 964, ../projects/Racoon/scss/style.scss */
+.connect_title {
+  text-align: center;
+  font-weight: 500;
+  font-size: calc((1vh + 1vw) * 1.6);
+  margin-bottom: calc((1vh + 1vw) * 2.4);
+}
+
+/* line 971, ../projects/Racoon/scss/style.scss */
+.connect_button {
+  font-size: calc((1vh + 1vw) * 0.5);
+  padding: 1.5em 6em;
+  background-color: #072B87;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* line 978, ../projects/Racoon/scss/style.scss */
+.connect_button:link, .connect_button:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  transition: all .2s;
+}
+
+/* line 986, ../projects/Racoon/scss/style.scss */
+.connect_button:hover {
+  transform: translateY(-5px);
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* line 990, ../projects/Racoon/scss/style.scss */
+.connect_button:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+/* line 996, ../projects/Racoon/scss/style.scss */
+.connect_button:active {
+  transform: translateY(-3px);
+  background-color: #29458b;
+}
+
+@media (max-width: 1340px) {
+  /* line 1003, ../projects/Racoon/scss/style.scss */
+  .connect_button {
+    font-size: 10px;
+    padding: 1.5em 3em;
   }
 }
 
